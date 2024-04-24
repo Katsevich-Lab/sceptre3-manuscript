@@ -30,7 +30,7 @@ nextflow run timothy-barry/sceptre-pipeline -r main -with-trace -profile profile
  --grna_odm_fp $grna_odm_fp \
  --output_directory $output_directory \
  --grna_assignment_method mixture \
- --pair_pod_size 100000 \
+ --pair_pod_size 200000 \
  --grna_pod_size 250 \
  --discovery_pairs trans
  
