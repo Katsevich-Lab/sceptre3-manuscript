@@ -24,7 +24,7 @@ output_directory=$project_directory"sceptre_outputs"
 #################
 # Invoke pipeline
 #################
-nextflow run timothy-barry/sceptre-pipeline -r main -with-trace -resume \
+nextflow run timothy-barry/sceptre-pipeline -r main -with-trace -resume profile_16xl \
  --sceptre_object_fp $sceptre_object_fp \
  --response_odm_fp $response_odm_fp \
  --grna_odm_fp $grna_odm_fp \
