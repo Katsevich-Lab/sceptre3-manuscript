@@ -19,7 +19,7 @@ grna_odm_fp=$data_directory"grna.odm"
 ##################
 # OUTPUT DIRECTORY
 ##################
-output_directory=$HOME"/sceptre_outputs"
+output_directory=$project_directory"sceptre_outputs"
 
 #################
 # Invoke pipeline
@@ -33,3 +33,4 @@ nextflow run timothy-barry/sceptre-pipeline -r main \
  --pipeline_stop assign_grnas \
  --pair_pod_size 10000
  --grna_pod_size 250
+ 
