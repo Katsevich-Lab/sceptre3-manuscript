@@ -1,0 +1,3 @@
+nf_pipelines/gasp_cis/.nextflow*
+nf_pipelines/gasp_trans/.nextflow*
+nf_pipelines/rd7_trans/.nextflow*
