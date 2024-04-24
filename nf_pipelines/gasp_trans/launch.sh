@@ -24,7 +24,7 @@ output_directory=$project_directory"sceptre_outputs"
 #################
 # Invoke pipeline
 #################
-nextflow run timothy-barry/sceptre-pipeline -r main -with-trace -profile  \
+nextflow run timothy-barry/sceptre-pipeline -r main -with-trace -profile profile_16xl \
  --sceptre_object_fp $sceptre_object_fp \
  --response_odm_fp $response_odm_fp \
  --grna_odm_fp $grna_odm_fp \
@@ -32,5 +32,5 @@ nextflow run timothy-barry/sceptre-pipeline -r main -with-trace -profile  \
  --grna_assignment_method mixture \
  --pair_pod_size 100000 \
  --grna_pod_size 250 \
- --discovery_pairs trans \
+ --discovery_pairs trans
  
