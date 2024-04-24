@@ -32,5 +32,4 @@ nextflow run timothy-barry/sceptre-pipeline -r main -with-trace \
  --grna_assignment_method mixture \
  --pipeline_stop assign_grnas \
  --pair_pod_size 10000 \
- --grna_pod_size 250 \
- --discovery_pairs trans
+ --grna_pod_size 250
