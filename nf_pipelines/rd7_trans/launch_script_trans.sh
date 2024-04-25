@@ -29,7 +29,8 @@ nextflow run timothy-barry/sceptre-pipeline -r main -with-trace -profile profile
  --response_odm_fp $response_odm_fp \
  --grna_odm_fp $grna_odm_fp \
  --output_directory $output_directory \
- --grna_assignment_method mixture \
+ --grna_assignment_method maximum \
+ --umi_fraction_threshold 0.95 \
  --pair_pod_size 200000 \
  --grna_pod_size 100 \
  --assign_grnas_time_per_grna 5s \
