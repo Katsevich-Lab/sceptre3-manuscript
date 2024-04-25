@@ -34,4 +34,3 @@ nextflow run timothy-barry/sceptre-pipeline -r main -with-trace -profile profile
  --grna_pod_size 250 \
  --assign_grnas_time_per_grna 5s \
  --discovery_pairs trans
- 
